@@ -10,6 +10,7 @@ window.addEventListener("keydown",function (ev) {
             if(!is_null($("#info_enter").val())){
                 var html = $("#info_enter").val()
                 createCoordinate(html);
+                sendInfo(html);
             }
             $("#info_enter").blur();
             $("#info_enter").val("");
@@ -54,6 +55,25 @@ function getInfo() {
         },
         error:function () {
             alert(123)
+        }
+    })
+}
+
+/**
+ * 发送消息
+ * @param html
+ */
+function sendInfo(html) {
+    $.ajax({
+        "url":"",
+        "data":{"info":html},
+        "dataType":"json",
+        "type":"POST",
+        success:function (data) {
+
+        },
+        error:function () {
+            alert("网络错误")
         }
     })
 }
