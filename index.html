@@ -5,36 +5,30 @@
     <title></title>
     <link href="css/common.css" rel="stylesheet"/>
     <link href="file/layui/css/layui.css" rel="stylesheet"/>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
 
 </head>
 <body>
 
     <div class="body">
-
+        <div class="form-group" id="input_enter" >
+            <input type="text" class="form-control" id="info_enter" placeholder="info">
+        </div>
     </div>
 
 </body>
 </html>
 
 <script src="js/jquery-3.0.0.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <script src="js/importUtil.js"></script>
 <script src="file/layui/layui.js"></script>
 <script src="js/util.js"></script>
+<script src="js/index.js"></script>
 
 <script>
-    var importUtilJs = new importUtilJs();
-    var strs = [
-        "https://www.baidu.com",
-        "http://www.baidu.com",
-        "www.baidu.com",
-        "ftp://www.baidu.com",
-        "pan.baidu.com/Dksien23",
-        "pan.baidu.com/Dksien23?password=12Dkinl"
-    ]
-    for(var  i = 0;i<strs.length;i++){
-        $(".body").append(repalceUrlToStr(strs[i]) + "<hr/>")
-    }
+
 
 
 </script>

@@ -6,17 +6,20 @@
 }
 
 a{
-  cursor: pointer;
+    cursor: pointer;
+    font-size: 25px;
+    color: #1E9FFF;
+    background-color: beige;
 }
 body{
     min-width: 1220px;
     min-height: 900px;
-    font-size: 18px;
+    font-size: 20px;
     font-family: '微软雅黑';
     margin: 0;
     padding: 0;
-    background:url(../img/ssq-bc2.jpg) no-repeat;
-    background-size: 100% 100%;
+    /*background:url(../img/ssq-bc2.jpg) no-repeat;
+    background-size: 100% 100%;*/
 }
 
 .body{
@@ -28,109 +31,61 @@ body{
     margin-top: 15px;
 }
 
-.result-input{
-    margin-left: 8px;
-    width: 770px;
-    height: 250px;
-    float: left;
-    margin-top: 10px;
-    border: 1px solid darkorange;
-}
-
 div{
     border: 1px solid white;
-}
-
-.view-div-min{
-    width: 50px;
-    height: 50px;
-    float: left;
-    text-align: center;
-    line-height: 50px;
-}
-
-.control-panel{
-    width: 410px;
-    margin-left: 20px;
-    float: left;
-    height: 250px;
-    margin-top: 10px;
-    border: 1px solid red;
-}
-
-.result-view{
-    width: 1200px;
-    margin-left: 8px;
-    height: 520px;
-    margin-top: 25px;
-    float: left;
-}
-
-.panel-btn{
-    width: 70px;
-    height: 70px;
-    float: left;
-    cursor: pointer;
-    margin-left: 3px;
-    line-height: 70px;
-    text-align: center;
-}
-
-.param-input{
-    width: 80px;
-    height: 35px;
+    display:inline;
+    font-size: 20px;
 }
 
 input{
     text-align: center;
 }
 
-.bj-yhs{
-    background-color: #ff6258;
-    color: #FFFFFF;
-}
-
-.bj-zs{
-    background-color: #CCCCFF;
-}
-
-.bj-qs{
-    background-color: #ccff99;
-}
-
-.bj-qls{
-    background-color: #99ccff;
-}
-
-.btn-title{
-    width: 100%;
+#input_enter{
+    position: fixed;
+    bottom: -80px;
     height: 50px;
+    font-size: 30px;
+    left: 10%;
+    width: 80%;
 }
 
-.yingkui_zhanshi{
-    border: 1px solid black;
+#input_enter input{
+    height: 100%;
+    font-size: 25px;
 }
 
-[name="daxiao_yingkui_zhanshi_da"]{
-    display: none;
+
+
+/*[name="answer_div"]{
+    animation:myfirst 20s;
+    -moz-animation:myfirst 20s; !* Firefox *!
+    -webkit-animation:myfirst 20s; !* Safari and Chrome *!
+    -o-animation:myfirst 20s; !* Opera *!
 }
 
-[name="daxiao_yingkui_zhanshi_xiao"]{
-    display: none;
+
+@keyframes myfirst
+{
+    0%   {right:0px;}
+    100% {right:3000px;}
 }
 
-[name="danshuang_yingkui_zhanshi_dan"]{
-    display: none;
+@-moz-keyframes myfirst !* Firefox *!
+{
+    0%   {right:0px;}
+    100% {right:3000px;}
 }
 
-[name="danshuang_yingkui_zhanshi_shuang"]{
-    display: none;
+@-webkit-keyframes myfirst !* Safari and Chrome *!
+{
+    0%   {right:0px;}
+    100% {right:3000px;}
 }
 
-[name="longhu_yingkui_zhanshi_long"]{
-    display: none;
-}
+@-o-keyframes myfirst !* Opera *!
+{
+    0%   {right:0px;}
+    100% {right:3000px;}
+}*/
 
-[name="longhu_yingkui_zhanshi_hu"]{
-    display: none;
-}
