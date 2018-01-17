@@ -109,6 +109,7 @@ function open_url(url) {
             type: 2,
             title:url,
             scrollbar:true,
+            closeBtn:2,
             moveOut:true ,
             area:['80%','80%'],
             content: url
